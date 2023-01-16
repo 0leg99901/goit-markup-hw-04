@@ -161,8 +161,15 @@ p {
 
 /*cap*/
 .cap {
-  background: #2f303a;
+  background: #C4C4C4;
   color: #ffff;
+  background-image: linear-gradient(to right,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+  ),url("../goit-markup-hw-04/images/Img\ фон\ копія.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -335,7 +342,17 @@ p {
   margin: 0;
   margin-bottom: 10px;
 }
-
+/*regular customers*/
+.customers-section,h2,ul{
+  padding: 0;
+  margin: 0;
+ 
+  
+}
+.customers-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /*portfolio*/
 
 /* button portfolio*/
