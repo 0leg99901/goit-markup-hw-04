@@ -473,16 +473,3 @@ p {
 .basement-inf li:not(:first-child) {
   margin-top: 9px;
 }
-.button-icon{
-  display:flex;
-padding: 0;
-margin: 0;
-outline: 1px solid black;
-  list-style: none;
-
-}
-.icon{
-  width: 32px;
-  height: 32px;
- fill: #212121;
-}
