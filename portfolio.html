@@ -13,7 +13,7 @@
 </head>
 <body> 
   <header class="top-line">
-    <div class="container">
+    <div class="container-header">
       <nav class="page-header">
         
        <a href="/"><span class="logo-web">Web</span>Studio</a>
@@ -23,13 +23,19 @@
         <li ><a href="./portfolio.html" class="cap-portfolio">Портфоліо</a></li>
         <li><a href="" class="cap-contacts">Контакти</a></li>
        </ul>
-        
-          <ul class="site"> 
-          <li ><a href="mailto:info@devstudio.com" class="cap-mailto">info@devstudio.com</a></li>
-           <li ><a href="tel:+380961111111" class="cap-tel">+38 096 111 11 11</a></li>
-          </ul>
-    
       </nav>
+          <ul class="site"> 
+           
+          <li class="icon-cap">  
+            <svg class="icon-envelope">
+            <use href="./images/symbol-defs.svg#envelope"></use>
+          </svg><a href="mailto:info@devstudio.com" class="cap-mailto">info@devstudio.com</a></li>
+           <li class="icon-cap">
+            <svg class="icon-phone">
+              <use href="./images/symbol-defs.svg#smartphone"></use>
+            </svg><a href="tel:+380961111111" class="cap-tel">+38 096 111 11 11</a></li>
+          </ul>
+
    </div>
   </header>
     <main >
@@ -134,17 +140,48 @@
                  </section>
     </main>
     <footer class="basement">
-        <div class="container">
-         <a href="/"><span class="logo-web">Web</span>Studio</a>
-            <address >
-              м. Київ, пр-т Лесі Українки, 26
-              <ul class="basement-inf" >
-                <li><a href="https://www.google.com/search?client=safari&rls=en&q=info%40devstudio.com&ie=UTF-8&oe=UTF-8">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-              </ul>
-            </address>
-          </div>
-      </footer>
+      <div class="footer-container">
+        <div class="footer-address">
+       <a href="/"><span class="logo-web">Web</span>Studio</a>
+          <address >
+            м. Київ, пр-т Лесі Українки, 26
+            <ul class="basement-inf" >
+              <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-join">
+          <p>приєднуйтесь</p>
+          <ul class="join">
+            <li >
+              <a class="join-icon" href=""><svg width="20px"
+                height="20px">
+            <use href="./images/symbol-defs.svg#instagram"></use>
+          </svg></a>
+            </li>
+            <li >
+              <a class="join-icon" href=""><svg width="20px"
+                height="20px">
+            <use href="./images/symbol-defs.svg#twitter"></use>
+          </svg></a>
+            </li>
+            <li >
+              <a class="join-icon" href=""><svg  width="20px"
+                height="20px">
+            <use href="./images/symbol-defs.svg#facebook"></use>
+          </svg></a>
+            </li>
+            <li >
+              <a class="join-icon" href=""><svg width="20px"
+                height="20px">
+            <use href="./images/symbol-defs.svg#linkedin-1"></use>
+          </svg></a>
+            </li>
+          </ul>
+        </div>
+        </div>
+    </footer>
     
     </body> 
     </html>
