@@ -6,6 +6,7 @@
 
 body {
   color: var(--primary-text-color);
+  
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 
@@ -472,4 +473,67 @@ p {
 }
 .basement-inf li:not(:first-child) {
   margin-top: 9px;
+}
+.icon-cap{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  align-items: center;
+  fill: #757575;
+  
+}
+.icon-cap:hover{
+  fill: #2196f3;
+}
+.icon-envelope{
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 12px;
+ margin-right: 10px;
+}
+.icon-phone{
+  padding: 0;
+  margin: 0;
+  width: 10px;
+  height: 16px;
+ margin-right: 10px;
+}
+.icon-background{
+  display: flex;
+  justify-content: center;
+align-items: center;
+  background-color: #F5F4FA;
+border-radius: 4px;
+margin-right: 30px;
+height: 120px;
+width: 270px;  
+margin-bottom: 30px;
+
+}
+.social-icon{
+ 
+}
+.icon-features{
+  width: 70px;
+  height: 70px;
+}
+.social-link {
+display:inline;
+ padding: 0;
+ margin: 0;
+ height: 44px;
+  width: 44px;
+  background-color: #2196f3;
+  
+}
+.social-link li{
+  height: 4px;
+  width: 44px;
+}
+.icon-team{
+  height: 20px;
+  width: 20px;
+
 }
