@@ -9,8 +9,8 @@ body {
   
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-
 }
+
 ul {
   list-style: none;
 }
@@ -401,22 +401,17 @@ border-radius: 0px 0px 4px 4px;
   margin: 0;
   gap: 30px;
 }
-.project :nth-child(3n) {
+.card :nth-child(3n) {
   margin-right: 0px;
 }
-.project {
+.card{
+  display: block;
   background: #ffffff;
-
-}
-.project a {
   text-decoration: none;
 }
-.project img{
-  display: block;
-}
-.project:hover,.project:focus{
+.card:hover,.card:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
+background-color: ;
 }
 .project_inf{
   padding: 20px 24px;
@@ -464,6 +459,7 @@ border-radius: 0px 0px 4px 4px;
 }
 .basement address{
   margin-top: 20px;
+  font-style: normal;
 }
 .basement-inf {
   color: #ffffff;
@@ -485,19 +481,27 @@ border-radius: 0px 0px 4px 4px;
 .basement-inf li:not(:first-child) {
   margin-top: 9px;
 }
-.icon-cap{
+.icon-cap a{
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  fill: var(--additional-color);
+ 
   
 }
-.cap-mailto{
-align-items: baseline;
-}
 .cap-mailto:hover,
-.cap-mailto-focus{
+.cap-mailto:focus{
   color: var(--accent-color);
     fill: var(--accent-color);
   }
+
+    
 .cap-tel:hover,
-.cap-tel-focus{
+.cap-tel:focus{
   color: var(--accent-color);
     fill: var(--accent-color);
 }
@@ -507,8 +511,8 @@ align-items: baseline;
   width: 16px;
   height: 12px;
  margin-right: 10px;
- margin-left: auto;
  align-items: center;
+ 
 }
 .icon-phone{
   padding: 0;
@@ -516,6 +520,7 @@ align-items: baseline;
   width: 10px;
   height: 16px;
  margin-right: 10px;
+ align-items:center
 
 }
 .icon-background{
@@ -637,7 +642,7 @@ line-height: 24px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  aal
+
 }
 
 .footer-join{
